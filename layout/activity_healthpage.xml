@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/health_wall"
+    tools:context=".healthpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/head_bg"
+            android:text="FITNESS RELATED"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#07082E"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/bmi"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bmi_bg"
+            tools:src="@drawable/bmi_bg"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BODY MASS INDEX"
+            android:background="@drawable/bg_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/bmr"
+            tools:src="@drawable/bmr_bg"
+            android:src="@drawable/bmr_bg"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BASAL METABOLIC RATE"
+            android:background="@drawable/bg_text"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/calorie"
+            tools:src="@drawable/clr_bg"
+            android:src="@drawable/clr_bg"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CALORIE CALCULATOR"
+            android:background="@drawable/bg_text"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+        <ImageButton
+            android:id="@+id/heigweigh"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hg_wg_bg"
+            tools:src="@drawable/hg_wg_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WEIGHT FOR HEIGHT "
+            android:background="@drawable/bg_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BMR">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:layout_marginTop="20dp"
+            android:text="BMR Calculator"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#212121"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:textSize="23dp"
+            android:text="   Your Height in Cm:"
+            android:textColor="#000"
+
+            />
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/editxt_bg"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:layout_marginEnd="150dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23dp"
+            android:text="   Your Weight in kg:"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/editxt_bg"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:layout_marginEnd="150dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23dp"
+            android:text="   Your Age:"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/editxt_bg"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:inputType="number"
+            />
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Calculate"
+
+            />
+
+
+        <TextView
+            android:id="@+id/bmrw"
+            android:layout_width="match_parent"
+            android:background="@drawable/editxt_bg"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:text="  BMR if Male:"
+
+            />
+
+        <TextView
+            android:id="@+id/bmrm"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editxt_bg"
+            android:layout_marginStart="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="  BMR if Female:"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

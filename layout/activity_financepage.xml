@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finance_wall"
+    tools:context=".financepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/head_bg"
+            android:text="FINANCE RELATED"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#07082E"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/CI"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ci_bg"
+            tools:src="@drawable/ci_bg"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMPOUND INTEREST"
+            android:textAlignment="center"
+            android:background="@drawable/bg_text"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/SI"
+            tools:src="@drawable/si_bg"
+            android:src="@drawable/si_bg"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SIMPLE INTREST"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_text"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/percentage"
+            tools:src="@drawable/percent_bg"
+            android:src="@drawable/percent_bg"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PERCENTAGE CALCULATOR"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_text"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+        <ImageButton
+            android:id="@+id/Emi"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:elevation="20dp"
+            android:padding="10dp"
+            android:src="@drawable/emi_bg"
+            tools:src="@drawable/emi_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E.M.I CALCULATOR"
+            android:background="@drawable/bg_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</ScrollView>

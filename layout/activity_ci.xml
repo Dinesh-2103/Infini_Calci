@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CI">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:layout_marginTop="10dp"
+            android:text="CI Calculator"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#212121"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:textSize="23dp"
+            android:text="   Enter Principal:"
+            android:textColor="#000"
+
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/princ"
+            android:textAlignment="center"
+            android:background="@drawable/editxt_bg"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:textSize="23dp"
+            android:text="    Intrest Rate:"
+            android:textColor="#000"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/editxt_bg"
+            android:id="@+id/interest"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:textSize="23dp"
+            android:text="   Enter Time (in Year):"
+            android:textColor="#000"/>
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/editxt_bg"
+            android:id="@+id/time"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:id="@+id/btn"        />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/editxt_bg"
+            android:id="@+id/txt1"
+            android:textSize="30dp"        />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
